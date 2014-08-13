@@ -5,7 +5,7 @@
  </tileset>
  <layer name="background" width="20" height="10">
   <data encoding="base64" compression="zlib">
-   eJzjZmBg4B7Fo3iAMDMQsyDRjEDMBMScQMyFRRxdHsaHqWMHYg4kmhWI2YCYF4j5sIijy8P4MHUANJMHzQ==
+   eJzty8kJACAQQ9Fx39D+y/VfhGADXjw8woTMMLPxfY80dAREOHjJu/dyn1/dTywUVCRkybvX+/zqfgMzqwfE
   </data>
  </layer>
  <layer name="grass" width="20" height="10">
@@ -13,4 +13,20 @@
    eJxjYBgFo4B4wA/EAlSkBzsAAPeoATc=
   </data>
  </layer>
+ <objectgroup name="coin" width="20" height="10">
+  <object x="320" y="128"/>
+  <object x="352" y="128"/>
+  <object x="352" y="160"/>
+  <object x="352" y="192"/>
+  <object x="352" y="224"/>
+  <object x="320" y="224"/>
+  <object x="384" y="224"/>
+  <object x="480" y="224"/>
+ </objectgroup>
+ <objectgroup name="rock" width="20" height="10">
+  <object x="512" y="128" width="96" height="96"/>
+  <object x="608" y="224"/>
+  <object x="576" y="128"/>
+  <object x="512" y="160"/>
+ </objectgroup>
 </map>

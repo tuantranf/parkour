@@ -7,7 +7,9 @@ var res = {
 		runner_plist : "res/running.plist",
 		map_png : "res/map.png",
 		map00_tmx : "res/map00.tmx",
-		map01_tmx : "res/map01.tmx"
+		map01_tmx : "res/map01_bk.tmx",
+		background_png :"res/background.png",
+		background_plist : "res/background.plist"
 };
 
 var g_resources = [
@@ -18,9 +20,11 @@ var g_resources = [
     res.PlayBG_png,
     res.runner_png,
     res.map_png,
+    res.background_png,
     
     //plist
     res.runner_plist,
+    res.background_plist,
     
     //tmx
     res.map00_tmx,
