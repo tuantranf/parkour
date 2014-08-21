@@ -19,6 +19,7 @@
     "src/BackgroundLayer.js",
     "src/StatusLayer.js",
     "src/PlayScene.js",
+    "src/GameOverLayer.js",
     "src/coin.js",
     "src/rock.js"
   ]

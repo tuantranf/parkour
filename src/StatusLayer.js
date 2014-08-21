@@ -1,4 +1,6 @@
 var StatusLayer = cc.Layer.extend({
+	coins: 0,
+	
 	ctor: function() {
 		this._super();
 		this.init();
@@ -19,13 +21,13 @@ var StatusLayer = cc.Layer.extend({
 		this.labelMeter.setPosition(cc.p(winsize.width - 70, winsize.height - 20));
 		this.addChild(this.labelMeter);
 	},
-	
+
 	updateMeter:function (px) {
 		this.labelMeter.setString(parseInt(px / 10) + "M");
 	},
-	
+
 	addCoin:function (num) {
 		this.coins += num;
 		this.labelCoin.setString("Coins:" + this.coins);
-	},
+	}
 });

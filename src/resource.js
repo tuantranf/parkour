@@ -4,6 +4,8 @@ var res = {
 		start_s_png : "res/start_s.png",
 		PlayBG_png  : "res/PlayBG.png",
 		runner_png  : "res/running.png",
+		restart_n_png : "res/restart_n.png",
+		restart_s_png : "res/restart_s.png",
 		runner_plist : "res/running.plist",
 		map_png : "res/map.png",
 		map00_tmx : "res/map00.tmx",
@@ -21,6 +23,8 @@ var g_resources = [
     res.runner_png,
     res.map_png,
     res.background_png,
+    res.restart_n_png,
+    res.restart_s_png,
     
     //plist
     res.runner_plist,
